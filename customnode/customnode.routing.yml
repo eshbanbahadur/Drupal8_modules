@@ -1,0 +1,6 @@
+customnode:
+  path: /my/customnode
+  defaults:
+    _controller: Drupal\customnode\Controller\CustomnodeCreation::content
+  requirements:
+    _permission: 'access content'
